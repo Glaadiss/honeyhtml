@@ -1,0 +1,122 @@
+body { 
+
+    height: 100%;
+    -webkit-transition: background-color 0.5s ease-in-out;
+    -moz-transition: background-color 0.5s ease-in-out;
+    -o-transition: background-color 0.5s ease-in-out;
+    -khtml-transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;   
+}
+
+div {
+   
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#cytat{
+    text-align: center;
+    margin-top: -40px;
+
+}
+.topp{
+    padding: 20px;
+    display: block;
+    margin: 0 auto 8%;
+}
+.with_img{
+
+  background-image: url('../img/tlo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.no_img{
+  background-image: url('../img/bgfix2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#one{
+  padding-top: 50px;
+ }
+#two{
+  padding-bottom: 30px;
+}
+
+#three{
+  position: relative;
+
+}
+
+#four{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+}
+
+#five{
+  margin-top: 40px;
+  padding-bottom: 50px;
+
+}
+
+.circle, .circleSize{
+  background-color: white;
+  border-radius: 40px;
+  padding: 25px;
+  font-size: 12px;
+}
+
+.circleSize{
+  font-size: 16px;
+
+}
+.circle2{
+  border-radius: 100px;
+
+}
+
+.carousel-inner{
+  position: relative;
+  width:100%;
+  max-height: 50% !important;
+  margin: 0 auto;
+}
+
+#google_map{
+  height: 700px;
+}
+
+#scrollsections-navigation {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  width: 15px;
+  margin-top: -177px;
+  z-index: 100;
+  background: transparent;
+  overflow: hidden;
+}
+.scrollsections-menuitem {
+  position: relative;
+  display: block;
+  height: 40px;
+  width: 10px;
+  overflow: hidden;
+  background: #555;
+  text-indent: -9999px;
+  margin: 0 0 5px 0;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.scrollsections-menuitem.active-scrollsection {
+  width: 2px;
+  margin-left: 8px;
+  cursor: default;
+}
